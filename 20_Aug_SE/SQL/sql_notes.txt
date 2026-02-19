@@ -1,0 +1,154 @@
+13th Oct
+    database ? data store , tabular form , permananet store , 
+              collection of data , stores data permanent 
+  
+              Mysql , Oracle , SQLLite , postgre ,MS-access ..
+
+  DBMS - Database management system --- manage ,manipulate - DBMS 
+  RDBMS - Relational database managent system - tables are related 
+        eg. Mysql , Oracle , SQLLite , postgre ,MS-access 
+
+  Tools - MYSQL server - Mysql Workbench 
+          SQLServer installation 
+          Ms-access 
+  
+  
+    SQL --- > Structure Query language ---database apply 
+
+DDL - Data definition Lanaguge - table related - create , alter , drop
+DML - Data manipulation Language - data related - insert , update , delete 
+DCL - Data control Language - permission - grant - revoke 
+DQL - Data Query Language - filter -select 
+
+1. CREATE  - data/information  - Person  name-id-c_no-city-age - Student r_no,name,class,schoolName,age
+      
+      create table <<table_name>> (columnName datatype(size)  constraints , columnName datatype(size) constraints , 
+                                    columnName datatype(size) constraints , 
+                                    columnName datatype(size) constraints ....)
+    
+
+        dataytpe ? Which kind of data you want to store ..
+                numeric- int
+                varchar - string 
+                datatime 
+                decimal - float
+                object - resume,images 
+
+        constraints ? limitation/boundry 
+            1. Primary key --roll_no,eid , email_id To Uniquely indetify record , it's NOt NULL
+            
+        
+            installation  - MYSQL Server - command base 
+                            Mysql workbench - GUI
+            
+
+        database ? 
+1. create database 
+    
+    create database <<database_name>>  
+
+--- > create database 20_Aug_SE
+--> use 20_aug_se
+--> create table person (pid int ,
+					pname varchar(20),
+					paddress varchar(200))
+
+14th oct :
+	DDL --- create  ,alter ,drop 
+
+--> describe person
+
+table add column , change/modify , drop column
+
+ alter command
+
+alter table <<table_name> add <<coumn name>><<datatype><<size>>
+
+-->  alter table person add contact_no int
+--> alter table person drop paddress
+
+drop table -->permanent delete 
+
+--> drop table person
+
+employee  --- eid ,ename,salary
+			-- alter address,co_no
+
+
+containts --> Boundries /limitation /rules 
+
+1. Primary key 		--	Uniquely indetify record roll_no , eid , aadhar_card  NOT NULL , table contains 1 PK
+2. Foreigh key		
+3. Unique key		-- Uniquely indetify records , table may contains more uniques key , it allows one value as NULL value
+4. not Null			--  not allowed null items
+5. Default			-- set default item
+6. Check			-- age>18
+
+---> create table student(roll_no int primary key,
+					studentName varchar(20) Not null,
+					city varchar(20) default "Ahmedabad",
+                    age int check (age>5))
+
+
+INSERT command to enter record/data 
+
+insert into table_name(col1,col2...) values(val1,val2...)
+
+-->insert into student(roll_no,studentname,age) values (1,"Mahesh",20)
+
+
+15th Oct 
+
+DML -DATA  insert , update and delete 
+
+
+update 
+delete 
+			
+insert into student values(101,'Manav',"Baroda",20),
+                  (102,'Vasai',"Baroda",12),
+                            (103,'Subham',"Ahmedabad",20),
+                          (104,'Rushi',"Surat",25),
+                          (105,'Mahesh',"Rajkot",17);
+                        
+
+
+update student set city="Jamnagar" where roll_no=102;
+
+delete from student where roll_no=104;
+
+select * from student;                          
+
+
+select Query --- > Filter data -- it won't affect data 
+
+select * from student 
+
+select roll_no , address from student
+
+-->fetch only those students whose age is greater then 20
+
+select * from student where age>=20
+
+-->Fetch those students whose age is between 20 and 25
+
+select * from student where age between 15 and 20;
+
+-->fetch student records whose age is greater then 20 and roll_no is greater then 103
+
+select * from student where age>20 and roll_no>103;
+
+-->fetch student records whose age is greater then 20 or roll_no is greater then 103
+
+select * from student where age>20 or roll_no>103;
+
+clause - where , between and ,and ,or , in 
+
+in 
+-->fetch students records who are linving in baroda and surat
+select * from student where city in("Baroda","Surat","Delhi");
+
+--> 
+
+
+

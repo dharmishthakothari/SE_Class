@@ -1,0 +1,317 @@
+// C++
+// Programming language 
+// extended version of C language
+//diffenece between c and C++
+//	C - Procedure language C ++ - Object Oriented/Hybrid
+// method/function C++ functions , class (data,functions)
+// printf/scanf , cout/cin
+//C++ object oriented features 
+//	1. class 2. Object 3. Encapsulation 4. Inheritance 5. Polymorphisum 6. Abstractions
+
+//if for switch array
+ 
+cout - console output 
+<< - operator  extract
+
+cin - console input
+>> - input 
+
+---> 2 arrays sum all elemetns 
+	1	1			2	3			ans	3	4 	
+	1	2			1	3				2	5
+
+--> diagonal element sum 1 array
+
+
+30th Sep
+arrray of class
+inline function
+	Inheritance 	- Parent child - Property of one class can use property of antoher class
+Parent property child class can use it
+
+Person - name ,age
+Employee - name,age,salary ,department   (name and age can inherit/take from Person)
+
+-Resuability 
+
+Types 
+-Single Inheritance
+		onr parent , one child
+		class Person ---Employee
+
+-Multilevel Inheritance
+		Grandparent - Parent - Child
+child can use property of parent and Grandperent also
+
+-Multiple inheritance
+Mother -Child
+Father - Child
+
+
+-Hirchical
+Class1 
+class2 extends Class1
+class3 extends Class1
+
+
+
+-Hybrid
+  mixing any of above
+
+Vehical (color,engine,price)
+Car (brand ,model)
+
+getDetails()
+display()
+
+
+1st Oct 
+
+Shape class , Circle ,Rectangle class
+Circle extends Shape 
+Rectangle extends Shape
+
+
+
+super keyword is use to call super class member - contructor
+
+3RD oCT
+
+Contructors
+		Constrcotrs are special methods to initilize objects
+		constructor have same name as class name
+		contructor called automatically
+		constructor does not return anything
+
+	Constructor vs methods
+
+In a single class we can have multiple contructor with different paramater
+
+inheritance Person - Employee
+Person Contructor Employee
+
+4th oct 
+
+	Point Constructor/Desctructor
+
+OOPS 
+	Class
+	Object
+	Inheritance
+	Polymorphisum --> More then one form , 
+
+Ability to take more then one form
+
+1. compile time polymorphisum  / static binding /  - example method overloading 
+			same name diffferent argument
+			add(num,num)
+			add(num,num,num)
+   Operator overloading  --- +,-,*,>=,<=,=
+	12>23
+point p1
+point p2
+p1>p2 not valid
+p1+p2 not valid
+Overload operator 
+
+2. run time polymorphisum/dynamic binding - example method overriding
+same name same argument  but in inherited class
+
+
+Method overload ---  Person (name,age,c_no) display(name,age) , display(name,age,c_no)
+
+this ---> is a keyword with reference to current object
+
+6th Oct
+		Polymorpshium - Compile  - method overloding - same method name and paramaeters are diffrent - Operator Overlading
+						Run time - method overriding - same method name same paramters (inheritance)
+
+class Test print() can be use  to print name,int number and character  - user method overloadiing concept
+
+
+12+23
+int number1,number2;
+num1-num2
+number1*number2;
+
+Point p,p1
+
+p+p1
+
+++
+--
+
+int i=10;
+i++;
+cout<<i;//11
+
+int i=10;
+++i;
+cout<<i;//11
+
+Lab task --- > Number class - val (- operator overload)
+			Number n(23)
+			-n;
+			-23
+
+			Number n(90)
+			-n;
+			-90
+
+Which operator can not overload
+
+-- Create Distance class (feet,inches ) Perform all arithmatic oprations (+,-,*,/)
+--Point overload (>=,<=)
+
+23>=34 -= true
+
+8th Oct 
+
+		inheritance
+		class 
+		object
+		polymorphisum  - compile time (overlading method-operator ) /run time  (method overriding same name same argument parent-child)
+		array
+		condiitons stmt
+		looping
+
+Runtime Polymorphisum - Method overriding - (same name same argument parent child)		
+
+lab task : create class Car - drive() virtual 
+						Maruti --->Car method override drive() - maruti car inforamtion print
+						Hundai -->Car drive() - hundai information print
+
+	Parameters - constructor 
+
+-->Abstract  complex hide ,show only essesntial details 
+				Car engine ,color,price 
+					internal egine?
+		achive pure virtual function ---> 
+//not pure
+		virtual int calculateArea() 
+		{
+			cout<<"sdfsdfsdf"
+		}
+
+//Pure virtual function
+only declaration no body 
+	virtual int calculateArea() =0
+		
+abstract class vs class
+abstract class contains pure virtual function 
+you can not create instance of abstract class	
+
+
+----
+virtual function - run time polymorphisum 	-	method overriding - method same name and same argument -calculareArea
+pure virtual function - abstractions - just declaration - =0 - next class must implement this virtual method.
+
+Lab Task -->Bank class --- pure virtual calculateInterest()
+			SBI  - override calculateInterest and return interest amount
+			HDFC  - override calculateInterest and return interest amount
+
+
+
+public - private -protected 
+							
+
+9th Oct 
+
+Abstract vs Non abstract 
+
+1. abstract class contains pure virual fucntion-non virtual function fucntion  - non abstract class not contains any pure virtual function 
+2. pure virtual function must override and simple function tyhat may or may not override 
+3. abstract pointer address 
+4. object creation 
+
+private - procted - public 
+ public all over
+protected within classand sub class
+private class iteself
+
+Lab Taks : 
+
+
+class Shape 
+{
+};
+class Rectangle : public Shape
+{
+}
+class Circle :procted Shape
+{
+};
+class Square : private Shape
+{
+};
+
+-----------------------
+
+virtuaal function 
+pure virtual 
+inline
+
+friend function ---> private 
+friend class
+
+
+Employee Constructor (name,salary,department)
+			salary private - display with friend function
+
+
+static ? --- belongs to class not object 
+			obj.a
+			A.a
+			accessing thru class 
+			college 
+			students - dept , name ,roll , address.....
+						college name (static )
+			all the object share static data 
+
+static - file - string fucntion 
+		
+10th Oct 
+		static
+
+public-procted - private  --- access modifers 
+public - accessible all over
+protected -  sub class / inherited class 
+private - same class
+
+friend - private can be accessible thru friend function
+
+
+friend class- friend function
+
+static ? 
+ to initlize only once 
+access thru class 
+class not from object
+
+static data we can use in static method 
+
+static i 
+static method
+displayA
+
+
+File Handling ---
+
+create 
+open
+read
+write
+
+3 ifstream
+  ofstream 
+	fstream 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1424 @@
+SE - 
+	Introduction to IT
+	
+	Software ? Alarm
+		whatsapp,game,facebook , insta , 
+		MS-office
+		notpad
+		tops application
+
+	--> collections of programs
+	program?
+		collection of code
+		set of instructions
+		snooze , alart set 
+	
+
+	Programming ? 
+		To develop program/code programming
+		high level,low level...
+
+	IT Roles ?
+		backend develooper
+		frontend developer
+		data analyst/science
+		software developer
+		software tester
+		web designer
+								
+
+	SDLC ==  Software + Development + Life Cycle
+	phares / life cycle/process/steps
+
+	1. Requirement Gathering - to collect requirements from 				client
+				Eg. send/receive msg,send receive 					media file
+	2. Analysis
+		- each requirement should analyse
+		- detailing of each requirement
+		msg and media must be analysis
+	
+
+	3. Desgining
+		- how it looks /page
+		form , pages ,theme
+	4. Implementation/coding
+		- actual implementaion/coding is going
+	
+	5. Testing
+		- Validatation accorinngd to requirement wherther we are producing software ot not
+	6. Maintance
+		- when any updataion/new changes 
+
+21th Aug
+
+	GIT account 
+
+	Assignment - Programming in C - Theory
+					Practical
+					Task 
+
+			
+		     OOPS
+			
+	Assessment - 
+	
+	Project - 
+					 	
+
+	Software  - application / collection of programs 
+	Program - collection of code
+	Programming - using programming we can create program
+
+	Procedure Language - each code is in terms of procedure/method/fucntion  - C
+
+	Object - each code is in terms of object - Java,python
+
+	WWW - World Wide Web
+		internet - conencted thru internet world 
+		Web Pages ? - Web sites which runs on browser
+		
+		request and response 
+		
+		Providing input borwser requesting for web page
+	
+Protocol - ? Rules 
+	http // https 
+
+SRS - Software Requirement Specification 
+
+	information related to project is there 
+	read 
+	comman for all people 
+	
+	Functional requirements
+	Non Functional Requirements 
+
+	Modules 
+	Technologies 
+	Test Plan
+	Resources 
+	Scedule
+	
+	Social Media/facebook
+
+	SRS - >
+		1. Functional Requirement 
+			->chat
+			->storeis 
+			->calls
+			->post
+			->like/comments/share
+		2. Non -fuctional		
+			->usablity
+			->performance
+		
+		Moduels - Users
+			  Advertisement
+			  Visiters 	
+			Post
+				->text,view,image
+
+
+
+
+	
+		Functional or Non-functional ?
+		Functionality ?
+
+	
+		
+22nd Aug
+
+DFD 
+
+0th /Context Level - basic 
+1st Level process ,database, enity
+
+
+______________________________________________
+
+
+C - Programming 
+variables 
+Data Types 
+conditional stmt
+loops 
+break,continue,gotot
+array
+file
+structure
+
+C Program ? editor 
+
+program structure 
+1. include header files (library bulit-in functions)
+2. create function main  (execution starts from main()) 
+3. variable declaration
+4. block of stmts
+
+Compiler  - program that check where your file is correct or not
+
+printf - function (is use for specific task)
+"" - string/msg 
+; - to end stmt
+
+
+comment - non executable part ,for documentation purpose
+single line  //
+multiline comment  /* 	*/
+
+@@@@@@@@@@@@@@@@Name@@@@@@@@@@@@@@@@@@
+ 
+data type - which type of data you are storing (char,numeric,true/false)
+variable - indetifier / which value may be changed 
+
+int number1;
+int number2;
+
+number1=100;
+number2=200;
+
+
+23rd Aug
+
+C programming structure 
+printf - function 
+dev installation
+variable  - identifier ,which value may be changed 
+data type  - which kind of data we are storing in variable 
+
+int a;
+
+int - data type
+a - variable
+
+float f1;
+
+f1 = variable
+float = data type
+
+declaration and initilization 
+	-- Declaration means to decare variable or function
+	
+	int a;
+	
+	initilization 
+	a=0;
+
+single stmt i can do both declaration and initlization
+	int a=0;
+
+
+int a=1234567;
+long a=53432423423434234234234234234234234;
+
+float a=12.345656;
+double a=34.565645645645645654
+
+
+printf("%d",a);
+
+format specifier 
+
+Operators === 
+
+Arithmatic operators 
+ +
+ -
+ *
+ /
+ %
+
+printf - to printng
+scanf - to accept input from user 
+
+
+10/5 = 2
+10%2 =0 
+
+10%3 = 1
+
+a+b === + operator
+	a and operand
+
+a=10 b= 5
+
+a==b === 10==5 False
+a!=b     10!=5 True
+a>b      10>5  True
+a<b      10<5  False
+a>=b
+a<=b
+
+
+25th Aug
+
+Logical 
+bit wise
+ternary operator
+
+
+Aritmetic -- +,-,%,/,*
+Relational  --- ==,!=<,<,>=<=
+
+Logical Operator &&
+		||
+		!
+	componde stmt 
+	to check 2 condition
+	a>b 
+	a>100
+
+	
+	a>b && a>100 = when both condition have true value
+	cond=1 is true and cond=2 is false 
+	a=10  , b=30 = False
+	a=200  , b=300 = False
+	a=200 , b=30 = True
+	
+	a>b || a>100 = when 
+		
+	Truth Table
+	a	b	&&	||
+	1	1	1	1
+	1	0	0	1
+	0	1	0	1
+	0	0	0	0
+
+	! - reverse 
+Assignment operator
+
+a=10;
+a=a+10;
+
+a+=10;
+a=a-10; 
+a-=10;
+
+a=a*5;
+a*=5;
+
+increment/decrement 
+
+a=a+1
+a+=1
+
+a++;
+a--;
+
+prefix and postfix
+
+++a;
+a++;
+
+a=5;
+++a
+a=6
+
+a=10;
+b=a++;
+printf("a= %d b=%d",a,b);
+c=++a;
+printf("a= %d c=%d",a,c);
+
+bits/bytes 
+
+
+computer 
+
+1
+5	=
+6
+7
+		2^4	2^3	2^2	2^1	2^0
+64	32	16	8	4	2	1			5 =	0	0	0	1	0	1		
+18 =	0	1	0	0	1	0
+20 = 	0	1	0	1	0	0
+15 = 	0	0	1	1	1	1
+&	0	0	0	1	0	0			
+|  	0	1	1	1	1	1		
+
+20 & 15
+
+26th Aug
+
+Operator  - arithmatic
+		relational 
+		logical operator
+		bitwise 
+	
+	&
+	|
+
+ternary 
+condition ? true:false
+
+
+
+
+Conditional Statements 
+
+
+---> c,c++,python,java,php
+
+if 
+if -else
+if- else if
+
+syntax - if(condition)
+	{
+		stmt
+	}
+
+Positive
+	a=-100;
+	if(a>0)
+	{
+		printf("Number is Postive");
+	}
+
+
+-------
+Lab task : accept the age from user
+
+age =56
+user is adult
+
+age=4
+user is not adult
+
+age>=18
+
+if
+if else
+if else if
+
+Lab task
+
+age  0 - 18 minor
+19 - 60 Adult
+61-80 seniour
+80 - super seniur
+	
+_______________________________________
+
+27th Aug
+
+if 
+if else
+if else if
+nested if
+
+
+if within if / nested if
+blood donate 
+1. age >18
+weight >50
+
+if (age>18)
+{
+	if(weight>=50)
+	{
+		print("User is eligible to donate");
+	}else
+	{
+		printf("User can not donate blood due to underwight");
+	}
+}
+else
+{
+	print("User is not eligilbe");
+}
+
+Switch case  
+
+when you have more conditions at that time else if that is not in redable form 
+
+switch case
+
+if(age>18 and age<=70)
+	Adult
+else if(age>70 and age<=90)
+	Senior
+else(age>91)
+	Super senior 
+	
+
+
+printf("1. Addition 2. Substraction 3. Multilication 4. Division");
+scanf("%d",&choice);
+if(choice==1)
+{
+	printf("%d",a+b);
+}
+else if (choice==2)
+{
+	printf("%d",a-b);
+}
+
+2nd way 
+switch(choice)
+{
+	case 1:printf("%d",a+b);
+		break;
+	case 2: printf("%d",a-b);
+		break;
+
+	case 3: printf("%d",a*b);
+		break;
+	case 4: printf("%d",a/b);
+		break;
+
+}
+
+Lab task 
+
+1. switch without break 
+2. + Addition 
+   - Substraction 
+   * Multilication 
+   / Division
+
+
+
+c laguage 
+
+formate specifier printf digit %d,char %c,scanf %c
+%d
+%c
+%f
+%ld
+
+
+28th Aug
+
+loops
+
+Introduction ---> 
+
+software ?
+programming?
+program?
+SDLC - requirement , analysis , designing , implementation, testing,maintaince
+SRS
+DFD
+Client-server
+
+
+Software architecture ---> 
+
+modules ?
+modules - sub modules 
+structure 
+
+
+Social media 
+
+User  
+Admin
+Advertisement
+Post
+
+User-Post
+
+user interaction between user-post(login , text,audio,video
+
+programming audio
+
+admin
+advv
+Post
+
+
+
+
+Post ->can be text,video , media (type) , like,comment
+Services 
+Notification -> User ,Post feed
+
+
+Desktop , web - Mobile  --d->
+
+Mobile (whatsapp,insta,facebook,snapchat,) - 
+Web (google,which runs on browser ) - 
+desktop (install desktop app ms-office,calculator,MySql,dev c++) - 
+
+
+__________________________________________________
+
+python
+
+	print("Hello World")
+
+C
+	#include<stdio.h>
+	int main()
+	{
+		printf("Hello World");
+	}
+
+
+
+Looping
+
+repeatation - looping
+ 3 types of loop 
+	1. For
+	2. While
+	3. do ... while
+
+Lab
+print(Select day (1 ,2,3,4,5,6,7));
+1. Sunday
+2. Monday
+3. Tuesday
+4. 
+
+
+29th Aug
+
+Loops - repeatation / iteration
+	1. for
+	2. while
+	3. do....while
+
+1. for loop
+	for(initlization;condition;increment/decrement)
+	{
+		block
+	}
+
+	//declaratoin of variable i
+	int i;	
+
+	//initlization 
+	i=10;
+	
+	//declare and intilization
+	int i=100;
+	
+	for(i=0;i<=9;i++)
+	{
+		printf("Hello");
+	}
+	
+	5*1=5
+	5*2=10
+	5*3=15
+
+
+Lab task : accept number from user and display table
+
+sum of range ->
+start number : 10
+end number : 12
+
+10+11+12 =  32
+
+start number : 1
+end number : 15
+
+1+2+3+4+5+6+7+8....15 =  
+
+
+Lab task = multilication
+
+add condition 
+start no =200
+end no=100
+
+
+1st Sep
+
+while loop
+-> repeatation
+
+	while(condition)
+	{
+	}
+	print 1 to 10 numbers 
+
+	int i=0;
+	while(i<10)
+	{
+		printf("%d",i);
+		i++;x
+	}
+
+
+entry control loop - for , while  - based on condition, loop may execute 0 or more times 
+	i=10
+	while(i>11)
+	{
+	}
+
+exit control loop - do - it must excute at least once 
+	i=10;
+	do
+	{
+	}while(i>11);
+
+1-10 print thru do while
+
+do
+{
+}while(condition);
+
+int i=1;
+do
+{
+	printf("%d",i);
+	i++;
+}while(i<=10);
+
+Lab task -> multilication table - do while
+ practise all loop , assingment - if,loops
+
+-- > factorial number
+--> fibo seriese
+
+2nd Sep
+
+input = 5
+	5*4 =20 
+	20*3 = 60
+	60*2 = 120
+	120*1 = 120
+
+input = 7
+	7*6 = 42
+	42*5 = 210
+	210*4 = 840
+	840*3 = 2520
+	2520*2 = 5040
+	5040*1 = 5040
+
+fact=1;
+for(i=num;i>=1;i--)
+{
+	fact =fact*i;
+}
+printf(fact);
+
+--- > Lab task - factorial number with while and do while
+
+fibo seriers   - > 0 	1	1	2	3	5	8	13	21
+
+sereis = 9
+
+series = 5
+0	1	1	2	3
+
+series = 7
+0	1	1	2	3	5	8
+
+
+0+1 = 1
+1+1 = 2
+2+1 = 3
+3+2 = 5
+5+3 = 8
+
+pre = 0
+next = 1
+sum = pre+next
+
+1st time 
+
+pre = 0
+next = 1
+sum = pre+next =1
+
+2nd iteration 
+
+pre = next -->1
+next = sum  -->1
+sum = pre+next =2
+
+3rd iteration
+
+pre = next  1
+next =sum 2
+sum = pre+next = 3
+
+4th iteration 
+pre = next  2
+next = sum 3
+sum = pre+next -->5
+
+--> 76543 = 5
+--->564 = 3
+-->4567 = 4
+
+no of digits 
+num = 9999  = 4
+ --> single number count 
+Operator  % 
+
+9999%10 = 9
+999%10 = 9
+99%10 = 9
+9%10 = 9
+
+76543%10 =3 7+6+5+4+3 = 
+7654%10 = 4
+
+Lab task  =sumettion of all digits 
+
+3rd Sep
+
+1. Addition
+2. Substraction
+3. Multilication
+4. Division
+5. Exit
+Enter your choice
+
+Lab task 
+
+1. Count no of Digit
+2. Sum of Digit
+3. Find even digits from number
+4. Reverse Number
+5. Exit
+
+4th Sep
+
+break , continue and goto
+
+*
+* *
+* * *
+* * * *
+
+break - break the loop/iteration
+
+continue - skip iteartion and continue with next iteration
+
+loop - 1-10 
+	accept number from user  break loop
+		input = 5
+		1
+		2
+		3
+		4
+		5
+
+	input = 8
+	1
+	2
+	3
+	..
+	8
+
+break === loop break 
+
+*
+*	*
+*	*	*
+*	*	*	*
+
+for(i=1;i<=5;i++)
+{
+	printf("*");
+}		
+
+row
+columns
+
+row 1 *
+row * *
+row 3 ***
+
+Lab task 
+	Pattern priting upto user input
+	break , continue and goto
+
+5th Sep
+
+*
+* *	
+* * *
+* * * *
+
+1
+1	2
+1	2	3
+1	2	3	4
+
+row = 5
+1
+3	3
+7	7	7
+9	9	9	9
+11	11	11	11	11
+
+row = 4
+*	*	*	*
+*	*	*
+*	*	*
+*	*
+*
+
+________________________________
+
+row 4 
+*	*	*	*
+*	*	*
+*	*	*
+*	*
+*
+*
+* 	*	
+* 	*	*
+* 	* 	* 	*
+
+________________________
+row =4
+		*
+	       * *
+	      * * *	
+	     * * * *
+
+mitul
+
+m
+m	i
+m	i	t
+m	i	t	u
+m	i	t	u	l
+
+---------
+C ?
+variables 
+data types 
+conditional stmt
+loop ,switch
+break,continue, goto
+ factorial
+	fibo series 
+	even numbers
+	find digits 
+	
+	given no is prime number - no is divisable by 1 and itself
+	find prime numbers from 1-100
+	arithmatic progression series 
+6th Sep 
+	perfect number  = 153 1^3 + 5^3 + 3^3
+				1+125+27
+				 153
+
+	number = 23
+		2^2 + 3^2
+		4+9 = 13
+
+array - 
+students roll no - 5-10-50-100
+	int no1,no2,no3,no4.....no100;
+	
+definition --- collection of elements of same data type
+	       elements are stored in continues memory
+		no1 - no2-no3
+		array elements are accessed thru index
+		index starts with 0
+
+		int no[100];
+		manav_marks=90
+		mitul_marks=91
+		yogesh_marks=70
+
+		//declarinf array
+		int marks[5];
+		//intilization
+		marks[0]=90;
+		marks[1]=91;
+		marks[2]=70;
+		printf("%d",marks[4]);
+
+		//declaration and initlization 
+		int marks={90,91,70};
+		printf("%d",marks[1]);	
+
+
+no[0]=12;
+no[1]=34;
+10 array = 1-10
+print
+
+no[0]=1
+no[1]=2
+no[2]=3
+no[3]=4
+...
+no[9]=10
+
+
+8th Sep
+
+
+n=10
+
+10*2=20
+10*4=40
+10*6=60
+10*8=80
+10*10=100
+
+n=5
+5*2=10
+5*4=20
+5*6=30
+5*8=40
+5*10=50
+
+
+			
+
+- > To check number is divisable by 11 or not
+-> from 1 - 100 find numbers divisable by 11
+
+num%11==0
+
+
+9th Sep
+
+array 1. element/value 2. index
+roll_no[0]=120
+
+element 120 and index 0
+
+Lab task find prime numbers from array
+
+
+reverse array 
+
+11th Sep
+
+array user input 
+--
+if(array[i]>max)
+{
+	max=array[i]
+}
+
+
+	11 
+	12,
+	21
+	9
+
+	max=0
+	max>=array[i](11)  0 >11   max=11
+	max>=array[i] (12) 11>12  max=12
+	max>=array[i](21)  12>21  max=21
+	
+Lab task : - Minimum number 
+Average of array elements  = 11,22,10,20 (63/4)
+			     1,2,3,4,5 (15/5)
+
+asending order smnall to big
+
+ 11,22,10,20
+  array[0] compare array[1]/[2][3]
+	11>22
+	
+	
+
+Lab task : menu driven 
+	find max value from array
+	find min value from array	
+	Print array in acesing array
+	Print array in desending array
+
+
+2 D array
+
+collection of similar types of elements 
+num[]
+
+row by column
+
+numbers[]
+numbers[][]
+numbers[row][column]
+	col1	cole2	col3
+row 1 - 1	2	3
+row 2 - 4	5	6
+row 3 - 7	8	9
+
+int matrix[][]={{1,2,3},{4,5,6},{7,8,9}}
+
+________________________________________
+
+
+	col1	col2
+row1	1	2
+row2	12	56
+row3	67	90
+
+int matrix[][]={{1,2},{12,56},{67,90}}
+
+
+Multilication array
+
+sum of all array elements 
+
+sum=sum+matrix[i][j];
+
+find ublicate items from array
+
+input {1,2,3,3,2}
+output {2,3}
+
+13th Sep
+
+2 matrix addition ---
+  0	1	2
+0 1	2	3
+1 2	3	4
+2 3	7	9
+
+value (0,0) (1,1) 9 = (2,2) 4 =(1,2)
+
+
+12	2	12
+2	6	7
+4	7	9
+
+answer 13	4	15
+	4	9	11
+	7	14	18
+
+	
+_______________________________
+
+12	2	12
+2	6	7
+4	7	9
+
+
+12+6+9 = 27
+
+
+12	2
+2	3
+
+12+3 = 15
+
+
+12	2	3	4
+2	3	5	5
+
+invalid 
+
+
+
+
+diagonal 
+
+12	23	1
+3	3	4
+23	7	33
+
+12+3+33
+
+12	3
+3	8
+12+8
+
+	i=0j=0  	i=0j=1  	i=0 j2  	i=0 j=3
+	12		23		8		7
+	i=1 j=0 	i=1 j=1		i=1 j=2		i=1 j=3
+	12		23		8		7
+	i=2 j=0 	i=2 j=1		i=2 j=2		i=2 j=3
+	1		6		5		4
+	i=3 j=0 	i=3 j=1		i=3 j=2		i=3 j=3
+	5		7		2		1
+
+12+23+5+1
+
+matrix 
+
+12	2	3
+12	2
+3	4	4
+
+
+15th Sep
+
+-->Functions  - piece of code to have specific task,
+		use many times 
+		
+		2 types 
+		1.	user defined function - we will create function (main() , .....)
+		2. built in function - library functions (printf,scanf,strlen,strcpy)
+			
+-->definition
+   implementation
+   calling
+
+deifintion --- >  
+		syntax			
+			returntype name(paramter)
+			{
+				stmt
+			}
+
+	To create function which print "hello World"
+			void greet()
+			{
+				printf("Hello world");
+			}
+
+			
+					
+	To create function check number is negative/positive
+
+			
+calling --
+		greet();
+			
+
+
+
+
+--to add 2 numbers 
+
+menua driven program - 
+1. addition
+2. substract
+3. muliplcation
+
+	
+Write a function Check whether a year is leap year with and without using if-else.
+	
+16th Sep
+LAB TASK - 2 functions 1. Check number is arstrong
+			2. print 1 -100 prime numbers
+
+
+recurive function
+
+
+LAB TASK - function to interesection of 2 arrays (1D)
+		arr1 = {1,2,3,56,22}
+		arr2 = {3,2,1,45,6}
+		ans= {2,3,1}
+2. Create function to count frequnence of elements 
+		arr1 = {1,2,3,56,22,1,2}
+		1 -- >2
+		2 -->2
+ 		3 ---> 1
+		56 -->1
+		22 --->1
+
+		arr[i]=====arr[i+1] , arr[i+2], arr[i+3]
+
+	
+		12
+		23
+		26
+		12
+
+		0th element 12 check with 3 elements  if value found count++
+		1st element 23 check with 3 element if found count++
+		
+			0,0   0,1
+		matrix 1	2
+		        1,0    1,1
+			3	4
+
+			0,0 == 0,0  0,0 =0,1
+		matrix 11	      12
+			13	       4
+
+		matrix1 [i][j] = fix
+
+18th Sep
+
+	- array frequence coutn
+	- intersection from 2d matrix
+	
+	String --- group of character/sequnece of character
+		  char ch;
+		ch='D';
+		ch="Manav";
+		char name[20];
+		name="Manav";
+		
+	
+	strlen
+	strcpy
+	strcmp
+	strco
+
+	name="Rushi"
+	output---uh
+	name="subham"
+	output--uhm
+		
+Lab task -- find no. of vowels from given string
+
+	name = "Shubham"
+	name1[20];
+
+	strcpy(destnation,source)
+	strcpy(name1,name)
+	
+strcat - joint 2 strtings strcat
+	name , surname
+	full_name = name+surname
+
+	name="Manav"
+	name1="Manav"
+
+Lab task : Enter one string as fixed 
+		enter another string until user has not entered fixed string
+		name = "Manav"
+		name1="Rushi"
+		name1="Shubham"
+		name1="Mahesh"
+		name1="Manav"
+		stop
+
+	compare - break , 
+		
+	
+19th Sep
+	String function 
+	File Handling ? document , data store, when permanent
+
+	openining
+	mode - read,write,append
+	close
+
+
+Lab task - Line by Line read data from file
+
+22nd Sep - add data from console to file until user enters "END"
+
+	fputs
+	fprintf find a difference
+
+--- 2 -  file read data from 1 file and write data to another file
+
+	Array of structure try it
+
+25th Sep 
+
+Pointer - It stores address 
+
+a = 200
+b i want to store address of 'a'
+b=a //value
+
+int *b;
+b=&a; / storing address pf a
+
+calloc --- try it by yourself 
+
+C++
+
+OOPS - class
+		object
+		polymorphisum
+		inheritance
+		Encalsupaltion
+		Abstraction
+
+	arrays
+ 	data types
+	loops
+	inline function , virtual function ,friend function
+	file handling
+	string functions
+	
+29th Sep 
+
+functions  ?
+	strcmp
+	strcat
+	printf  
+	Specific task run - 
+	2 types - user and in build 
+	functions ? name
+		paramters
+		return type
+SCOPe - global and local
+
+variable access --- :: operator scope resolution
+     
+OOP - Object Oreinted Programming
+
+class  --- blueprint/ structure/not real entity/collection of objects
+		--- data , functions
+			state , behaviur
+		human - hands,leges ,head,nose function- speak,eat,sleep 
+		car - wheet,streaing,seats,door function - ride
+
+object - real entity /type of class /access all data/function tru objects
+class Person
+{
+	int age;
+	string name;
+	void getData()
+	{
+		cout<<"Enter Age";
+		cin>>age;
+	}
+	void display()
+	{
+	cout<<name<<age<<endl;
+}
+
+each object have it's own data and function
+}
+Lab task - Car (c_name,wheels,name,engine - getData , display)
+				i10
+				creata
+				baleno
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
