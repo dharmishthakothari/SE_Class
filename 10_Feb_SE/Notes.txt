@@ -1,0 +1,177 @@
+Basics --- SDLC 
+		 Software ?
+		-purpose 
+           	-outcome
+		-eg. ms-office , windows os , whatsapp , alarm ,
+			calculator , careercenter 
+		
+	   Software+development+LifeCycle
+		1.  Requirement gathering  --
+			collecting requirement from client
+			E-commerce -- ???
+				login , filtering , browsing , paymnet ....	
+			BA
+		2.  Analysis
+			each requirement must analyse throughlly .
+			link - connectivity between modules 
+			SRS document / Diagrams 
+			BA/PM/Analyst
+
+		3.  Designing
+			design of pages,database 
+			GD,UI/UX/WD
+
+		4.  Implentation 
+			coding / development 
+			Developers - Engineers
+
+		5.  Testing
+			to verify/validating /check 
+			according requirement 
+			Tester/QA
+		6.  Maintaince
+			To maintain / changes /Supports 
+			Tech Supp 
+
+	Roles and Responsiblity 
+		Developer/Engineer/Tester/Desginer/UI-UX Developer/BA/Project Manager/FullStack Developer/Backend Developer
+MernStack developer
+
+
+	   SRS
+	   Use case diagram
+		client -Server architecture
+	
+Programming in C
+	 basics 
+		data types , variables , function 
+		conditional stmt , control stmt , loops
+		arrays
+		string/file handling
+OOPS / C++ 
+	concept  -- practical 
+
+12th Feb 
+
+git hub 
+
+-  Tops-Work  -- Assignment   ----  SE --- Module1 
+				       ---- Module 2 (C) - file.c 
+							 - file1.c
+	
+				       --- Module 3 		
+			      ----  react	
+		 Assessement	
+                 Project
+
+-- SRS - Software Requiremnet specificaiton 
+     core document for any project 
+     ---Project description
+     --Modules describe
+      --scope /out of scope 
+    --- tools and technologies 
+      Front-end/Back end
+      Hosting Server
+
+Lab Task : SRS document ---  Social media 	
+		
+
+-   Usecase diagram 
+
+14th Feb 
+
+- C Programming 
+Programming ? communication with computer 
+ - organizer 
+ - software develope
+ Programming --- rules / syntax 
+
+variables 
+data types 
+conditional stmt
+loops
+logic building 
+pattern programs 
+arrays
+file
+string
+functions
+
+1. editor - comiler 
+dev c++ , vs code , eclipse , 
+
+1 . program structure 
+
+	1. library add 
+	2. comments 
+	2. main function
+
+1.to print output we have to use printf function 
+2. program execution starts from main()
+3. method ()
+4. print()  --- function - lib function 
+	    --- to print something
+5. each stmt must end with ;	
+
+2 . i want to accept name from user 
+scanf --- function 
+
+17th feb
+
+--- diffrent data 
+strudent name
+roll
+percentage
+grade
+accept details from user 
+
+int,char , float ---- data types --- which kind of data you want to store 
+
+roll_no,c_no,per ..... - variable --- which holds the values - that can be changed 
+
+format specifier --- %d,%c,%f,%ld,%l
+
+escape sequence --- \n , \t ,\\,\'
+
+	
+Hello World "Dharmishtha"
+
+12  --- non decimal
+21.22  - decimal 
+
+comments are non executable code/part 
+1. single line  //
+2. double line  /* .... */
+
+
+---add / subtract / multiple / devide  2 numbers
+ 2 variables int no1,no2;
+
+19th feb
+
+arithmatic operators --- +,-,*,/,%(reminder)
+relational operators/comparison == >,<=,<,<=,==,!=
+no1=100
+no2=200
+
+no1>no2 === false
+no1<no2 === true
+100<200=0
+
+conditional stmt
+when we have a no of alternatives/options then we have to put condition 
+
+user age >18 user is eleiblgle for votting
+
+i ) if
+	if(condition)
+	{
+		block_of_stmt
+	}
+ii) if-else
+iii) if-else if
+iv) nested if
+
+
+
+
