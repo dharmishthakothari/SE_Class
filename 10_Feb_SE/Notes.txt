@@ -172,6 +172,36 @@ ii) if-else
 iii) if-else if
 iv) nested if
 
+21st Feb
+if-else
+
+if -else if 
+---number is positive / nagative 
+number>0
+
+Logical operator --- &&(and) , ||(or) ,! (not)
+---- no1,no2,no3 
+--print bigger number 
+no1 with no2 and no3 
+no2 with no1 and no3
+no3 with no1 and no2
+no1=11
+no2=12
+no3=22
+
+if(no1>no2 && no1>no3) //11>12 && 11>22 -- false && false   ---- false
+else if(no2>no1 && no2>no3)  //12>11 && 12>22 ---true && false  ---false
+else if (no3>no1 && no3>no2) //22>11 && 22>12 --- true && true --- true
+
+no1=22
+no2=10
+no3=9
+if(no1>no2 && no1>no3) // 22>10 && 22>9 --- true && true ---true
+else if(no2>no1 && no2>no3)  
+else if (no3>no1 && no3>no2)
+
+--- 
+
 
 
 
