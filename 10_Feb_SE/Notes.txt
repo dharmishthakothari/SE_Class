@@ -202,6 +202,35 @@ else if (no3>no1 && no3>no2)
 
 --- 
 
+24th Feb 
+   check number is divisable by 5 and 7
+5 & 7
+5
+7
+5 | 7
 
+nested if --- condition within condition (if within if)
+
+ternary operator
+increment/decrement operator - i+1 i-1 ++ , --
+		prefix , postfix
+		ans=i++ (i+1)   --- it assign the value to ans first ans then increment to i
+		ans=++i  (i+1) --- increment i and then assign value to ans
+
+
+
+loops ---- 
+repeatation --- 
+3 loops ---  for , while , do...while
+1. for loop 
+for(initilization;condition;increment/decrement)
+ write "hello world" 5 times 
+for(i=1;i<=5;i++)
+	{
+		printf("Hello World");
+}
+---- initlization part excute one times 
+---condition and then excute block of code and then go for increment
+--after increment again check the condition.
 
 
