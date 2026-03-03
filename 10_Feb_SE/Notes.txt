@@ -285,8 +285,46 @@ Enter your choice : 5
 if -else if 
 
 
+logic building programs 
+---- prime number -- divisable by 1 and itself only
+input =  6 (2,3)
+6 is not prime
+input = 17  -- prime number
+input = 10 ---(2,5) not prime
+
+17 --- 2,3,4,5,6,7,8,9,10,11,12...16 
+16 --- 2 break --not prime 
+23 -- 2,3,4,5,6,7,8....22  ---prime
+21 -- 2,3 break ---not prime
+45 --- 2,3 beark 
+
+Lab Task : Display Prime numbers from 1-100
+
+count_no_of digit from given number 
+input = 1222  output = 4   (1+2+2+2 ==4
+input = 67   output = 2     (6+7 =count = 2  sum=13
+input == 987  output = 3
+
+1222 ====
+1st iteration
+1222 % 10 === 2
+1222/10 === 122
+2nd iteration 
+122%10 = 2
+122/10 =12
+3rd iteratoin
+12%10 = 2
+12/10 = 1
+4th iteration
+1%10 ==
+1/10=
+break
 
 
+Lab Task : Fibo series ---5
+0 1 1 2 3 
+input 8
+0 1 1 2 3 5 8 13
 
 
 
