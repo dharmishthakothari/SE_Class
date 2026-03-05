@@ -325,6 +325,64 @@ Lab Task : Fibo series ---5
 0 1 1 2 3 
 input 8
 0 1 1 2 3 5 8 13
+5th march 
+  --- Fibo Series 
+
+a=0
+b=1
+sum=0,number=5
+1st ite --i=1
+	print(a) 0
+	sum=a+b; //sum=1
+	a=b		//a=1
+	b=sum;  ///sum=1 b=1
+
+2nd iteration
+	print(a)  1
+	sum=a+b //1+1 = 2
+	a=b // a=1
+	b=sum // b=2
+
+3rd interation
+	print(a) 1
+	sum=a+b //1+2 =3
+	a=b // a=2
+	b=sum //b=3
+4th iteration
+	print(a) 2
+	sum=a+b (2+3=5)
+	a=b (a=3)
+	b=sum(b=5)
+
+5th iteration
+	print(a) 3
+	sum=a+b (3+5 = 8)
+	a=b (a=5)
+	b=sum(b=8)
+
+6th iteration 
+	print(a) 5
+	sum=a+b (5+8 =13)
+	a=b (a=8)
+	b=sum (b=13)
+7th Iteration
+	print(a) 13
+	sum=a
+	
+
+1-100 prime --
+---Pattern Programs 
+	c=1 c=2 c=3 c=4 
+r=1 *		c=1
+r=2 * *		c=1 c=2
+r=3 * * *   c=1 c=2 c=3
+r=4 * * * *
+---nested loop 
+Lab Task 
+Patter1 = print(r)
+Pattern2 = print(c)
+
+
 
 
 
