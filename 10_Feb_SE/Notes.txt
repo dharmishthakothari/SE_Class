@@ -471,3 +471,41 @@ Pattern 5
    ***
     *
 
+10th march 
+
+pattern 3
+
+input ===5 
+total-row=5
+1st row ---col 1-5
+last row --- col 1-5  print *
+in between row --- col 1-5 pan pint space 
+*****
+*   *
+*   *
+*   *
+*****
+
+Array ---- array initlization / declaration 
+
+Lab Task ---enter no from user and print only even numbers from array
+eg.
+1
+2
+33
+56
+78
+9
+8
+78
+67
+45
+output 
+2
+56
+78
+8
+78
+
+
+
