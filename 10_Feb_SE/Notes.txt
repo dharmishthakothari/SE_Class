@@ -507,5 +507,14 @@ output
 8
 78
 
+12th March 
+---Patterns 
+* * * *		=== row 1 ,col 1,2,3,4
+* * *		===row 2 , col 1,2,3
+* *			===row 3 col 1,2
+*			===row 4 col 1
+
+Array --- 
+
 
 
