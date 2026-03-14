@@ -516,5 +516,28 @@ output
 
 Array --- 
 
+14th march 
+-- arrays ---  collection of values with the same name 
+--accessed thru index 
+-index from 0
+--Find maximum number from array
+
+Lab Task : Menu Driven program 
+1. Find Max
+2. Find min
+3. Find Average
+4. Find Sum
+5. Ascending order
+6. Descending order
+7. Exit
 
 
+2d Array 
+row/column
+matrix
+int matrxi[row][col]
+
+sum of all the elemenent ---
+
+Lab Task : Find max number from matrix
+--count total even and odd from matrix
