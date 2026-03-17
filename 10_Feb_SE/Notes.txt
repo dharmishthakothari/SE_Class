@@ -541,3 +541,55 @@ sum of all the elemenent ---
 
 Lab Task : Find max number from matrix
 --count total even and odd from matrix
+
+1
+33
+67
+45
+
+1---33,67,45
+
+1 >33
+1>67
+1>45
+
+33>67
+33>45
+
+67>45
+temp=45
+number
+
+Find sum of diaglonal numbers 
+12 12 1
+1   3  4
+7   8   1 
+12+3+1 = 16
+----
+22   45
+1    7
+22+7=29
+
+
+FUNCTIONS ?
+    to perform perticular task 
+    printf , scanf 
+	--inbuilt  --printf,scanf strcat,strcpy
+	--user defined ---created by users
+
+Functions have 3 things 
+name ----  complusary
+parameters  ---optional
+return type  ---complusary / void
+
+create function which greetings
+create 3 functions
+1. addition
+2. substraction
+3. multiplication
+4. Division
+
+create menu driven program and call function
+
+
+
