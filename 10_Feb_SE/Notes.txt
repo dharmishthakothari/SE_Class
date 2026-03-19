@@ -591,5 +591,70 @@ create 3 functions
 
 create menu driven program and call function
 
+19th March
+---do while
+do
+{
+	block_of_stmt
+}while(condition);
+
+
+1-10
+for(i=1;i<=10;i++)
+{
+	printf("%d",i);
+}
+--------
+i=11;
+while(i<=10)
+{
+	printf("%d",i);
+	i++;
+}
+-----
+i=11;
+do
+{
+	printf("%d",i);
+	i++;
+}while(i<=10);
+
+-----------
+for , while --entry control at starting it checks the condition
+do----exit control it check the condition at the end of the iteration
+
+----
+break -continue -goto
+break ? based on condition we are breaking the loop
+e.g loop -1 to 100 break when i is 15
+
+continue --- skip the current iteration and continue with next iteration 
+eg. loop 1-100 condtinue when i==15 
+
+goto --- based om condition goto stmt works
+stmts
+goto bye
+
+
+bye:
+	printf("Bye");
+
+MERGE Array 
+array1
+array2
+array3
+
+array1 =1     0
+		11    1
+		13    2
+aarra2= 11    0
+		22    1
+arra3 == 1		0 
+		 11		1
+		13		2
+		11		3	0	5
+		22		4   1
+
+---copy from one to anothoer array
 
 
