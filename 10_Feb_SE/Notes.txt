@@ -657,4 +657,8 @@ arra3 == 1		0
 
 ---copy from one to anothoer array
 
+24th Feb
+---Lab Task : 
+  ---Have to check string is palindrome or not
+--practise all the string function 
 
