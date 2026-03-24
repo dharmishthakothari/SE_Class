@@ -662,3 +662,15 @@ arra3 == 1		0
   ---Have to check string is palindrome or not
 --practise all the string function 
 
+-- Remove all spaces from a string.
+---Find substring occurrence.
+-- Concatenate two strings (without strcat()).
+-- Sort characters of a string alphabetically.
+-- Input 10 numbers and find:
+     Sum
+     Average
+---Find the largest and smallest element in an array.
+ ----Count:
+	-----Even numbers
+	-----Odd numbers
+-- Reverse an array.
