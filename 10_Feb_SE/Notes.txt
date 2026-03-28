@@ -674,3 +674,8 @@ arra3 == 1		0
 	-----Even numbers
 	-----Odd numbers
 -- Reverse an array.
+
+28th March 
+
+Lab Task : copy file (copy data from one file to another)
+1. tell , seek ?
