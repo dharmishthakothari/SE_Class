@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main()
+{
+	FILE* file;
+	file=fopen("count_digit.c","r");
+	int i;
+	char stmt[100];
+	
+	fseek(file,19,0);
+	
+	fgets(stmt,sizeof(stmt),file);				
+	printf("\n\n%s",stmt);
+		
+	int position=ftell(file);
+	printf("\n\nAfter reading %d",position);	
+	
+	fgets(stmt,sizeof(stmt),file);				
+	printf("\n\n%s",stmt);
+	
+	position=ftell(file);
+	printf("\n\nAfter reading %d",position);
+	
+		
+	
+}
