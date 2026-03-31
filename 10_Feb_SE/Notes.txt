@@ -679,3 +679,17 @@ arra3 == 1		0
 
 Lab Task : copy file (copy data from one file to another)
 1. tell , seek ?
+
+31st March 
+---- Structure --- int
+                   char[]
+					float
+Book data (id,title,price)
+Student (id,name,dept)
+LabTask : create array of structure/student
+2. accept data from user 
+3. disppla the data 
+
+--->display those student whose age is greater then 20 
+--->display those student whose name contains "a" letter
+--->display those student whose name is of 8 character and age is greater then 15
