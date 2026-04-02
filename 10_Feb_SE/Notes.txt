@@ -693,3 +693,23 @@ LabTask : create array of structure/student
 --->display those student whose age is greater then 20 
 --->display those student whose name contains "a" letter
 --->display those student whose name is of 8 character and age is greater then 15
+
+2nd April
+
+nested Structure 
+--Pointer ---- address 
+int a=10;
+int b;
+b=a;
+
+C++ ----
+
+Hybrid ---combination Procedure and Object oriented 
+LabTask :----conditional stmt
+---loops
+---arrays
+---data types
+cin , cout
+console input , console output 
+cpp
+
