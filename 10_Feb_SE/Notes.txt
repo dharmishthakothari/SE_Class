@@ -713,3 +713,34 @@ cin , cout
 console input , console output 
 cpp
 
+4th April
+--- 
+1. class / object 
+    ----- class is blueprint.
+	 --class is collection of objects
+	--- class have data members and member function.
+		Human 
+			legs , hands , mouth 
+			speaking , listneing ,eating,working
+		Employee 
+			eid,name,age,dept,salary
+			cauclateWorkingDays, calculatesalary,
+		Vehicle
+			brandname,no of wheels , price
+			displayDetails
+	Object ---- Object is real entity 
+				Object is type of class.
+				object has it's own data
+			schooter=new Vehicle();
+			car=new vehicle();
+			cycle=new Vehicle();
+			dharmishtha=Employee()
+			nirav=Employee()
+---- constructor 
+			is use to initilize object
+			has same name as class name
+			they called automatically 
+	Each class contains onr default constructor (no paramter)
+
+LabTask : constructor vs method
+Employee ---contructor
