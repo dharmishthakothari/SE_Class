@@ -744,3 +744,24 @@ cpp
 
 LabTask : constructor vs method
 Employee ---contructor
+
+7th April 
+---
+inheritance  ---- Property of one class can use property of another class.
+--reusability 
+---is a relationship 
+Person i can use in Employee
+Employee is Person
+Student is Person
+Admin is Person
+Property of Person's class can use Employee/Student/Admin
+
+Scooter is Vehicle
+Car is Vehicle
+
+LabTask : Inheritance Types 
+1. Single Inheritance
+2. multilevel 
+3. Multiple 
+4. Hierechical 
+5. Hybrid
