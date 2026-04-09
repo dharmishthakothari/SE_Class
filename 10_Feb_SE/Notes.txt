@@ -765,3 +765,36 @@ LabTask : Inheritance Types
 3. Multiple 
 4. Hierechical 
 5. Hybrid
+
+9th April 
+
+---inheritance 
+-property of one class can use property of another class 
+
+Single Inheritance --- onr child and one parent
+
+Multilevel Inheritance ---- one class extends another and another extends third class
+
+Multiple Inheritance ---- 1 class can use property of 2 classes.
+
+Hirchical ---- property of 1 class can use be in 2 classes
+
+class/object  --- contructors 
+inheritance  --- types
+
+Polymorphisum 
+--- Ability to take more then one form
+---Nayan is Student , intern , Son , Brother ,Friend 
+2 types of Polymorphisum
+
+i) Compile time polymorphisum/static bingding
+
+		Method overloading --- same method name , diffrent agruments
+		Operator Overloading --- + 12+23
+									obja+objb	
+At the time of comilation it desides which method is going to be call
+ii)Run time Polymorphisum/dynamic binding
+		Method overriding ---- same method name , same arguments
+
+
+
