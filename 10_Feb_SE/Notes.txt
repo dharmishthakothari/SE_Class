@@ -796,5 +796,21 @@ At the time of comilation it desides which method is going to be call
 ii)Run time Polymorphisum/dynamic binding
 		Method overriding ---- same method name , same arguments
 
+11th April 
+--- Operator Overloading
+class Distance 
+
+LabTask : 
+1. +,-,*,/
+2. Which operators can not overload
+3. <= , != operator overload
+
+uniary ++ , --
+
+method overiding
+---- same method name and same argument
+---use inheritance 
+--- virtual function 
+
 
 
