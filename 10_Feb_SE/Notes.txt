@@ -812,5 +812,32 @@ method overiding
 ---use inheritance 
 --- virtual function 
 
+14th April
+---
+Class/Object
+Inheritance
+Polymorphosm  -----
+		static binding    --- function overloading ,Operator Overloadin
+		Dynamic Bidning   --- Function Overriding 
+Inheritance
+
+Abstraction  ---- (summary)
+is hiding complex details and show only essetial details 
+abstraction can be achived thru
+	pure virtual function 
+no body
+
+difference between abstract and non abstrac class
+					-Virtual vs pure virtual function
+	Bank findRate (Pure virtual function)
+	SBI --0.5
+	Axis -- 0.7
+	main call axis and abi object
+
+Encapsulation ----- public , private , protected 
+
+Friend class/function 
+
+
 
 
