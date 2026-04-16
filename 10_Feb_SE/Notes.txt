@@ -838,6 +838,29 @@ Encapsulation ----- public , private , protected
 
 Friend class/function 
 
+16th April
+
+Encasulation 
+ ----- wrapping up of data into single unit.
+---hinding data
+with private and protected
+
+PRIVATE --- within class only
+PUBLIC ---- all over
+PROTECTED ---- within sublass
+
+
+Friend Function and Friend Class
+class Math {
+public:
+    static int add(int a, int b) {
+        return a + b;
+    }
+};
+
+int main() {
+    cout << Math::add(3, 4); // 7
+}
 
 
 
