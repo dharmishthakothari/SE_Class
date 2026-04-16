@@ -22,6 +22,7 @@ int main()
 	{
 		p[i].display();
 	}
+	p.
 	
 	
 }
