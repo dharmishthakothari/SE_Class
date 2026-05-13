@@ -1,0 +1,67 @@
+13th May 
+
+--- Programming ? 
+set of instructction 
+Use to build software 
+To build program we are using programming
+
+high level - machine level 
+---syntax 
+--- concept 
+variable 
+data types 
+
+---operators 
+conditional stmt 
+loop
+functions 
+C - is Procedure(function) oreited programming 
+library (functions)
+
+editor 
+compilor 
+
+C program Structure 
+i) header file add/library 
+ii) main --- from where execution will start 
+functions are use to perform some specific task 
+functions are may be user defined and in built 
+iii) in main function apply logic/block of code 
+
+
+printf("Hello World");   ---- printf is function 
+" ---- message / string ""
+Hello World --- msg that i want to print on console 
+
+escape sequences -- \n , \t ,\\ ,\"  , \' , \b
+
+comments 
+--for documentation purpose / non executable part
+--they are not executed 
+2 single line  //
+  multi line  /*   */
+
+Write a c prgram to add 2 numbers 
+-- 20 & 30 
+
+data type ---- 
+--- which type/kind of data you want to store 
+name --- string/characters 
+age --- int
+salary --- decimal 
+email --- charancters 
+
+data types ---- int , short , long , float , double , char
+variable ---- indetifier (to indentify)
+
+datatype variable=value
+int age=20
+
+salary float 
+float salary=12345.34;
+
+Lab Task : Read variables / Data types 
+-- Write a c program to add , substract , multile 2 numbers
+
+ 
+ 
