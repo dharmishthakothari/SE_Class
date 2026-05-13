@@ -1,0 +1,103 @@
+Software  ? 
+--collection of programs 
+-- that makes work easy 
+
+-- program ? 
+program is set of instruction 
+
+SOFTWARE banata kaise hain?
+
+Software Development Life Cycle (SDLC)
+
+phares   
+---i)Requirement Gathering
+		--- software kay kya chahiye ---functioanlity kya honi chahiye
+--add customer
+--add saller
+
+ii)  Analysis 
+  --- each requirement has to analysi
+ -- add customer -details 
+ --saler details 
+    rights (permission )
+
+
+iii) Designing 
+--looks , page looks
+   theme 
+  Database designing
+
+iv) coding / impmentation
+  developement
+
+v) Testing 
+   To check
+
+vi) Maintance 
+   To maintan 
+
+---
+
+git link 
+
+---12th May 
+What is Software 
+How to build software
+SDLC
+
+--- SRS documents 
+Software Requirement Specification 
+--- functional requreiment(functionality/features) - non functional requ
+	E-commerce 
+             Login - Registration
+	     Browes Product
+	     Orders 
+	     Add To cards / update
+             Payments 
+             return/cancallation /tracking
+	     offers
+	Social Media
+              - login-registration
+	 -  Profile 
+         - Stories 
+	  -Post 
+	Non - functionality 
+		reliablity , load , performance ,campatilibty
+	
+	Scope - out of scope
+	Module desription
+	Project description 
+	timline
+
+LabTask :Google --- social media SRS 
+                    E-commerce app srs document 
+
+Diagrams 
+
+  UML 
+      1. Use case diagram
+	Actor                    students , Faculty , Counsellor , Manager
+
+	Activity           Login , Registration , attandace , assignment download,assignment upload , Review , Status Report , Batch transfer  , Batch Complete , Certificaiton 
+
+Stuents  --------------  Login , Attandance , Reviews , Assignments/assessment
+Faculty ----- Status Report , Login , Verification , interviews 
+Counsellors ---- Batch Complete , transder , Status Report ,
+
+
+Client - Server 
+
+--- client sends request === server -- process database
+    response sent 
+
+Git link ---- 
+
+
+Programming in C
+
+ 
+
+
+
+ 
+
