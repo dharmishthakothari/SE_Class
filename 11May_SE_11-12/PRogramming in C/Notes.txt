@@ -62,6 +62,46 @@ float salary=12345.34;
 
 Lab Task : Read variables / Data types 
 -- Write a c program to add , substract , multile 2 numbers
+15th May 
+
+ ---conditional stmt ....
+ when you have a alternates / option 
+
+number postive ya nahi 
+10,12,202,2345
+-34,-90
+
+//syntax
+
+if(condition)  ---- if this condition is true then block of code executes 
+{
+  block_of_code
+}
+---- accept one number user 
+
+else
+
+---to check number is even or odd 
+if(num1%2==0)
+
+
+--to check number is 3 digit or not
+100 - 999  && || 
+
+conditional stmt with if-elseif
+
+nested if -- if within if
+blood donation 
+--18 age
+---55 weight
+
+
+
+--Lab Task : user enter day number eg. 1 output Monday
+2 output Tuesday
+3 output Wednsday
+
+Task : input marks 100 - 80 print A 80 -65 B 64-50 C , Fail
 
  
  
